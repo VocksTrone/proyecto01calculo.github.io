@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    font-size: "Fredoka One", cursive;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header h1 {
+    color: #fed353;;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+header h2 {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+}
+#canvas_section {
+    text-align: center;
+    margin: 20px 0
+}
+canvas {
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+#info_section {
+    text-align: center;
+    padding: 20px;
+}
+#info_section h3 {
+    color: #95B634;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+#info_section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #e0e0e0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #00000099;
+}
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    header h2 {
+        font-size: 1.2em;
+    }
+    #info_section p {
+        font-size: 1em;
+        padding: 15px;
+    }
+}
